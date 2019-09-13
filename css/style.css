@@ -1,0 +1,168 @@
+/* CSS files add styling rules to your content */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  padding:0;
+  margin:0;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.name {
+  margin-top: 22%;
+  display: block;
+  text-align: center;
+  
+}
+#hey{
+  margin-bottom:0px;
+}
+
+#cesar{
+  margin-top:0px;
+  font-size: 50px;
+}
+
+.sectionTitle{
+  text-align: center;
+  font-size: 32px;
+}
+
+.projectDivs{
+  margin-bottom: 200px;
+  margin-right: 20px;
+  color: white;
+}
+.block{
+  display: inline-block;
+
+}
+.descriptionBlock{
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  width: 400px;
+  left: 10%;
+  
+
+}
+
+@media screen and (max-width: 920px) {
+  .descriptionBlock {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    width: 280px;
+    left: 0px;
+  
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .descriptionBlock {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    width: 280px;
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+.projectPic{
+  width:280px;
+  height:235px;
+  border-radius: 40px;
+}
+
+
+/* Header */
+header{
+  background-image: url("../images/mountainRS.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:#ffffff;
+  padding-top:30px;
+  min-height: 90vh;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  display:inline;
+  padding: 0 15px 0 15px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+/* added  for spotlight effect*/
+header nav a{
+  transition: 0.2s ease;
+}
+
+header nav:hover a{
+  opacity: 0.2;
+}
+
+header nav a:hover{
+  opacity: 1;
+}
+
+
+/*project Section*/
+#projects{
+  background:#000;
+  color:#FFF;
+  padding-top:30px;
+  min-height: 100vh;
+
+}
+
+/*About Section*/
+#about{
+  background:#FFF;
+  color:#000;
+  padding-top:30px;
+  min-height: 100vh;
+
+}
+
+/* Footer Section*/
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#000;
+  text-align: center;
+}
+
+a{
+  color: white; 
+}
+a:visited { 
+  color: white; 
+}
